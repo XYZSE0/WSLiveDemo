@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WSLiveDemo-master.iml" filepath="$PROJECT_DIR$/WSLiveDemo-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WSLiveDemo-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WSLiveDemo-master.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libWSLive/WSLiveDemo-master.libWSLive.iml" filepath="$PROJECT_DIR$/.idea/modules/libWSLive/WSLiveDemo-master.libWSLive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WSLiveDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/WSLiveDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WSLiveDemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WSLiveDemo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libWSLive/WSLiveDemo.libWSLive.iml" filepath="$PROJECT_DIR$/.idea/modules/libWSLive/WSLiveDemo.libWSLive.iml" />
     </modules>
   </component>
 </project>

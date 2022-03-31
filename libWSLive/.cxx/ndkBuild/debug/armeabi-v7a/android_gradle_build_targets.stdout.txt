@@ -1,2 +1,10 @@
-make: Nothing to be done for 'resrtmp'.
-make: Nothing to be done for 'restreaming'.
+[armeabi-v7a] Compile thumb  : resrtmp <= amf.c
+[armeabi-v7a] Compile thumb  : resrtmp <= parseurl.c
+[armeabi-v7a] Compile thumb  : resrtmp <= hashswf.c
+[armeabi-v7a] Compile thumb  : resrtmp <= log.c
+[armeabi-v7a] Compile thumb  : resrtmp <= rtmp.c
+[armeabi-v7a] Compile thumb  : resrtmp <= libresrtmp.c
+[armeabi-v7a] SharedLibrary  : libresrtmp.so
+[armeabi-v7a] Compile thumb  : restreaming <= restreaming.c
+[armeabi-v7a] Compile thumb  : restreaming <= colorConvert.c
+[armeabi-v7a] SharedLibrary  : librestreaming.so

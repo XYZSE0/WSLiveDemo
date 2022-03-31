@@ -1,0 +1,196 @@
+In file included from G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/librtmp/amf.c:33:
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/librtmp/bytes.h:74:2: warning: "Float word order not defined, assuming the same as byte order!" [-W#warnings]
+#warning "Float word order not defined, assuming the same as byte order!"
+ ^
+1 warning generated.
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/librtmp/rtmp.c:922:9: warning: expression result unused [-Wunused-value]
+        flags;
+        ^~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/librtmp/rtmp.c:961:68: warning: incompatible integer to pointer conversion passing 'unsigned long' to parameter of type 'socklen_t *' (aka 'unsigned int *') [-Wint-conversion]
+                        getsockopt(r->m_sb.sb_socket, SOL_SOCKET, SO_ERROR, &error, sizeof(int));
+                                                                                    ^~~~~~~~~~~
+F:/android-sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\sys/socket.h:311:92: note: passing argument to parameter '__value_length' here
+__socketcall int getsockopt(int __fd, int __level, int __option, void* __value, socklen_t* __value_length);
+                                                                                           ^
+2 warnings generated.
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/libresrtmp.c:16:11: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'jlong' (aka 'long') [-Wint-conversion]
+                return NULL;
+                       ^~~~
+F:/android-sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64\lib64\clang\9.0.8\include\stddef.h:89:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/libresrtmp.c:20:33: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        int ret = RTMP_SetupURL(rtmp, url);
+                                      ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/librtmp\rtmp.h:303:36: note: passing argument to parameter 'url' here
+  int RTMP_SetupURL(RTMP *r, char *url);
+                                   ^
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/libresrtmp.c:26:11: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'jlong' (aka 'long') [-Wint-conversion]
+                return NULL;
+                       ^~~~
+F:/android-sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64\lib64\clang\9.0.8\include\stddef.h:89:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/libresrtmp.c:37:11: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'jlong' (aka 'long') [-Wint-conversion]
+                return NULL;
+                       ^~~~
+F:/android-sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64\lib64\clang\9.0.8\include\stddef.h:89:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/libresrtmp.c:47:11: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'jlong' (aka 'long') [-Wint-conversion]
+                return NULL;
+                       ^~~~
+F:/android-sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64\lib64\clang\9.0.8\include\stddef.h:89:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/libresrtmp.c:51:10: warning: incompatible pointer to integer conversion returning 'RTMP *' (aka 'struct RTMP *') from a function with result type 'jlong' (aka 'long') [-Wint-conversion]
+        return rtmp;
+               ^~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/libresrtmp.c:68:67: warning: passing 'char *' to parameter of type 'const jbyte *' (aka 'const signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->SetByteArrayRegion(env, data_, offset, readCount, data);  // copy
+                                                                  ^~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/libresrtmp.c:100:5: warning: implicitly declaring library function 'memcpy' with type 'void *(void *, const void *, unsigned long)' [-Wimplicit-function-declaration]
+    memcpy(packet->m_body,  buffer,  size);
+    ^
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/rtmp/libresrtmp.c:100:5: note: include the header <string.h> or explicitly provide a declaration for 'memcpy'
+8 warnings generated.
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:12:48: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseByteArrayElements(env,srcarray,src,JNI_ABORT);
+                                                      ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:13:48: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseByteArrayElements(env,dstarray,dst,JNI_ABORT);
+                                                      ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:21:48: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseByteArrayElements(env,srcarray,src,JNI_ABORT);
+                                                      ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:22:48: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseByteArrayElements(env,dstarray,dst,JNI_ABORT);
+                                                      ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:30:48: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseByteArrayElements(env,srcarray,src,JNI_ABORT);
+                                                      ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:31:48: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseByteArrayElements(env,dstarray,dst,JNI_ABORT);
+                                                      ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:39:49: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                (*env)->ReleaseByteArrayElements(env,srcarray,src,JNI_ABORT);
+                                                              ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:40:48: warning: passing 'unsigned int *' to parameter of type 'jint *' (aka 'int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                (*env)->ReleaseIntArrayElements(env,dstarray,dst,JNI_ABORT);
+                                                             ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:49:48: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseByteArrayElements(env,srcarray,src,JNI_ABORT);
+                                                      ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:50:48: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseByteArrayElements(env,dstarray,dst,JNI_ABORT);
+                                                      ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:61:49: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                (*env)->ReleaseByteArrayElements(env,srcarray,src,JNI_ABORT);
+                                                              ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:62:50: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                (*env)->ReleaseByteArrayElements(env,dstYarray,dsty,JNI_ABORT);
+                                                               ^~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:63:50: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                (*env)->ReleaseByteArrayElements(env,dstUarray,dstu,JNI_ABORT);
+                                                               ^~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:64:50: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                (*env)->ReleaseByteArrayElements(env,dstVarray,dstv,JNI_ABORT);
+                                                               ^~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:72:54: warning: passing 'unsigned int *' to parameter of type 'jint *' (aka 'int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseIntArrayElements(env,srcarray,src,JNI_ABORT);
+                                                     ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:73:54: warning: passing 'unsigned int *' to parameter of type 'jint *' (aka 'int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        (*env)->ReleaseIntArrayElements(env,dstarray,dst,JNI_ABORT);
+                                                     ^~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/restreaming.c:98:53: warning: passing 'unsigned char *' to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                        (*env)->ReleaseByteArrayElements(env,pixelsArray,pixels,JNI_ABORT);
+                                                                         ^~~~~~
+17 warnings generated.
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:7:9: warning: passing 'const unsigned char *' to parameter of type 'void *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        memcpy(dst,src,ySize);
+               ^~~
+F:/android-sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\bits/fortify/string.h:58:26: note: passing argument to parameter 'dst' here
+void* memcpy(void* const dst __pass_object_size0, const void* src, size_t copy_amount)
+                         ^
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:10:9: warning: passing 'const unsigned char *' to parameter of type 'void *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        memcpy(dst+ySize,src+ySize+1,uvSize-1);
+               ^~~~~~~~~
+F:/android-sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\bits/fortify/string.h:58:26: note: passing argument to parameter 'dst' here
+void* memcpy(void* const dst __pass_object_size0, const void* src, size_t copy_amount)
+                         ^
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:11:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *nvcur = src+ySize;
+                       ^       ~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:12:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *yuvcur = dst+ySize+1;
+                       ^        ~~~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:24:9: warning: passing 'const unsigned char *' to parameter of type 'void *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        memcpy(dst,src,ySize);
+               ^~~
+F:/android-sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\bits/fortify/string.h:58:26: note: passing argument to parameter 'dst' here
+void* memcpy(void* const dst __pass_object_size0, const void* src, size_t copy_amount)
+                         ^
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:26:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *srcucur = src+ySize+1;
+                       ^         ~~~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:27:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *srcvcur = src+ySize;
+                       ^         ~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:28:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *dstucur = dst+ySize;
+                       ^         ~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:29:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *dstvcur = dst+ySize+uSize;
+                       ^         ~~~~~~~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:44:9: warning: passing 'const unsigned char *' to parameter of type 'void *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        memcpy(dst,src,ySize);
+               ^~~
+F:/android-sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\bits/fortify/string.h:58:26: note: passing argument to parameter 'dst' here
+void* memcpy(void* const dst __pass_object_size0, const void* src, size_t copy_amount)
+                         ^
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:46:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *srcucur = src+ySize;
+                       ^         ~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:47:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *srcvcur = src+ySize+1;
+                       ^         ~~~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:48:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *dstucur = dst+ySize;
+                       ^         ~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:49:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *dstvcur = dst+ySize+uSize;
+                       ^         ~~~~~~~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:69:16: warning: initializing 'unsigned int *' with an expression of type 'const unsigned int *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned int *target=dst;
+                      ^      ~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:102:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *cdst=dst;
+                       ^    ~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:103:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *csrc=src;
+                       ^    ~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:230:9: warning: passing 'const unsigned char *' to parameter of type 'void *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        memcpy(dstY,src,ySize);
+               ^~~~
+F:/android-sdk/ndk/21.3.6528147/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\bits/fortify/string.h:58:26: note: passing argument to parameter 'dst' here
+void* memcpy(void* const dst __pass_object_size0, const void* src, size_t copy_amount)
+                         ^
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:232:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *srcucur = src+ySize+1;
+                       ^         ~~~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:233:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *srcvcur = src+ySize;
+                       ^         ~~~~~~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:234:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *dstucur = dstU;
+                       ^         ~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:235:17: warning: initializing 'unsigned char *' with an expression of type 'const unsigned char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        unsigned char *dstvcur = dstV;
+                       ^         ~~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:255:20: warning: incompatible pointer types initializing 'unsigned char *' with an expression of type 'unsigned int *' [-Wincompatible-pointer-types]
+    unsigned char *dstu=dst;
+                   ^    ~~~
+G:/AndroidDemo/WSLiveDemo/libWSLive/src/main/jni/restreaming/colorConvert.c:256:20: warning: incompatible pointer types initializing 'unsigned char *' with an expression of type 'const unsigned int *' [-Wincompatible-pointer-types]
+    unsigned char *srcu=src;
+                   ^    ~~~
+24 warnings generated.

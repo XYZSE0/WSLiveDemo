@@ -4,14 +4,14 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "cxxBuildFolder": "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
+  "cxxBuildFolder": "G:\\AndroidDemo\\WSLiveDemo\\libWSLive\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
   "info": {
     "abi": "ARMEABI_V7A",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
+  "originalCxxBuildFolder": "G:\\AndroidDemo\\WSLiveDemo\\libWSLive\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
   "variant": {
     "buildSystemArgumentList": [],
     "buildTargetSet": [],
@@ -22,12 +22,12 @@
     "module": {
       "buildSystem": "NDK_BUILD",
       "cmakeToolchainFile": "F:\\android-sdk\\ndk\\21.3.6528147\\build\\cmake\\android.toolchain.cmake",
-      "cxxFolder": "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\.cxx",
+      "cxxFolder": "G:\\AndroidDemo\\WSLiveDemo\\libWSLive\\.cxx",
       "gradleModulePathName": ":libWSLive",
-      "intermediatesFolder": "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\build\\intermediates",
-      "makeFile": "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\src\\main\\jni\\Android.mk",
-      "moduleBuildFile": "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\build.gradle",
-      "moduleRootFolder": "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive",
+      "intermediatesFolder": "G:\\AndroidDemo\\WSLiveDemo\\libWSLive\\build\\intermediates",
+      "makeFile": "G:\\AndroidDemo\\WSLiveDemo\\libWSLive\\src\\main\\jni\\Android.mk",
+      "moduleBuildFile": "G:\\AndroidDemo\\WSLiveDemo\\libWSLive\\build.gradle",
+      "moduleRootFolder": "G:\\AndroidDemo\\WSLiveDemo\\libWSLive",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -91,12 +91,12 @@
       ],
       "ndkVersion": "21.3.6528147",
       "project": {
-        "compilerSettingsCacheFolder": "G:\\AndroidDemo\\WSLiveDemo-master\\.cxx",
-        "cxxFolder": "G:\\AndroidDemo\\WSLiveDemo-master\\.cxx",
+        "compilerSettingsCacheFolder": "G:\\AndroidDemo\\WSLiveDemo\\.cxx",
+        "cxxFolder": "G:\\AndroidDemo\\WSLiveDemo\\.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "G:\\AndroidDemo\\WSLiveDemo-master",
+        "rootBuildGradleFolder": "G:\\AndroidDemo\\WSLiveDemo",
         "sdkFolder": "C:\\Users\\XYZ\\AppData\\Local\\Android\\Sdk"
       },
       "splitsAbiFilterSet": [],
@@ -112,7 +112,7 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "objFolder": "G:\\AndroidDemo\\WSLiveDemo\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",

@@ -1,2 +1,10 @@
-make: Nothing to be done for 'resrtmp'.
-make: Nothing to be done for 'restreaming'.
+[arm64-v8a] Compile        : resrtmp <= amf.c
+[arm64-v8a] Compile        : resrtmp <= parseurl.c
+[arm64-v8a] Compile        : resrtmp <= hashswf.c
+[arm64-v8a] Compile        : resrtmp <= log.c
+[arm64-v8a] Compile        : resrtmp <= rtmp.c
+[arm64-v8a] Compile        : resrtmp <= libresrtmp.c
+[arm64-v8a] SharedLibrary  : libresrtmp.so
+[arm64-v8a] Compile        : restreaming <= restreaming.c
+[arm64-v8a] Compile        : restreaming <= colorConvert.c
+[arm64-v8a] SharedLibrary  : librestreaming.so

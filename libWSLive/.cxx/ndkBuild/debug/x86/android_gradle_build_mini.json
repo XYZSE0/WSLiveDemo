@@ -1,24 +1,24 @@
 {
   "buildFiles": [
-    "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\src\\main\\jni\\Android.mk",
-    "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\src\\main\\jni\\Application.mk"
+    "G:\\AndroidDemo\\WSLiveDemo\\libWSLive\\src\\main\\jni\\Android.mk",
+    "G:\\AndroidDemo\\WSLiveDemo\\libWSLive\\src\\main\\jni\\Application.mk"
   ],
   "cleanCommands": [
-    "F:\\android-sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003dG:/AndroidDemo/WSLiveDemo-master/libWSLive/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+    "F:\\android-sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003dG:/AndroidDemo/WSLiveDemo/libWSLive/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\lib clean"
   ],
-  "buildTargetsCommand": "F:\\android-sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003dG:/AndroidDemo/WSLiveDemo-master/libWSLive/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "F:\\android-sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003dG:/AndroidDemo/WSLiveDemo/libWSLive/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "restreaming-debug-x86": {
       "artifactName": "restreaming",
-      "buildCommand": "F:\\android-sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003dG:/AndroidDemo/WSLiveDemo-master/libWSLive/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\lib G:/AndroidDemo/WSLiveDemo-master/libWSLive/build/intermediates/ndkBuild/debug/obj/local/x86/librestreaming.so",
+      "buildCommand": "F:\\android-sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003dG:/AndroidDemo/WSLiveDemo/libWSLive/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\lib G:/AndroidDemo/WSLiveDemo/libWSLive/build/intermediates/ndkBuild/debug/obj/local/x86/librestreaming.so",
       "abi": "x86",
-      "output": "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\librestreaming.so"
+      "output": "G:\\AndroidDemo\\WSLiveDemo\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\librestreaming.so"
     },
     "resrtmp-debug-x86": {
       "artifactName": "resrtmp",
-      "buildCommand": "F:\\android-sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003dG:/AndroidDemo/WSLiveDemo-master/libWSLive/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dG:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\lib G:/AndroidDemo/WSLiveDemo-master/libWSLive/build/intermediates/ndkBuild/debug/obj/local/x86/libresrtmp.so",
+      "buildCommand": "F:\\android-sdk\\ndk\\21.3.6528147\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-18 NDK_OUT\u003dG:/AndroidDemo/WSLiveDemo/libWSLive/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dG:\\AndroidDemo\\WSLiveDemo\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\lib G:/AndroidDemo/WSLiveDemo/libWSLive/build/intermediates/ndkBuild/debug/obj/local/x86/libresrtmp.so",
       "abi": "x86",
-      "output": "G:\\AndroidDemo\\WSLiveDemo-master\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libresrtmp.so"
+      "output": "G:\\AndroidDemo\\WSLiveDemo\\libWSLive\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libresrtmp.so"
     }
   }
 }

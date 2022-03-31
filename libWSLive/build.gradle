@@ -32,18 +32,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    sourceSets {
-        main {
-            jniLibs.srcDirs  'src/main/libs'
-            jni.srcDirs = []
-        }
-    }
-
-//    externalNativeBuild {
-//        ndkBuild {
-//            path file("src/main/jni/Android.mk")    //编译时所使用的mk文件路径
+//    sourceSets {
+//        main {
+//            jniLibs.srcDirs  'src/main/libs'
+//            jni.srcDirs = []
 //        }
 //    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path file("src/main/jni/Android.mk")    //编译时所使用的mk文件路径
+        }
+    }
 }
 
 dependencies {
