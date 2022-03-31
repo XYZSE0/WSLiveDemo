@@ -1,0 +1,52 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.WangShuo1143368701'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+
+
+    buildTypes {
+        buildTypes{
+            debug{
+                jniDebuggable true
+                jniDebuggable = true
+            }
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs  'src/main/libs'
+            jni.srcDirs = []
+        }
+    }
+
+//    externalNativeBuild {
+//        ndkBuild {
+//            path file("src/main/jni/Android.mk")    //编译时所使用的mk文件路径
+//        }
+//    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+}
